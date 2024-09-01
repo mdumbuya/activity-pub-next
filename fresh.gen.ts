@@ -6,6 +6,7 @@ import * as $_well_known_webfinger from "./routes/.well-known/webfinger.ts";
 import * as $_404 from "./routes/_404.tsx";
 import * as $_app from "./routes/_app.tsx";
 import * as $index from "./routes/index.tsx";
+import * as $register from "./routes/register.tsx";
 import * as $users_username_ from "./routes/users/[username].tsx";
 
 import { type Manifest } from "$fresh/server.ts";
@@ -16,6 +17,7 @@ const manifest = {
     "./routes/_404.tsx": $_404,
     "./routes/_app.tsx": $_app,
     "./routes/index.tsx": $index,
+    "./routes/register.tsx": $register,
     "./routes/users/[username].tsx": $users_username_,
   },
   islands: {},

@@ -1,3 +1,4 @@
+import { Create } from "jsr:@fedify/fedify@0.11.3";
 
 export default function Home() {
     return (

@@ -1,0 +1,19 @@
+{
+  "john": {
+    "username": "john",
+    "profileUrl": "/@john",
+    "activityUrl": "/users/john"
+  },
+  "jane": {
+    "username": "jane",
+    "profileUrl": "/@jane",
+    "activityUrl": "/users/jane"
+  },
+  "momo": {
+    "username": "momo",
+    "displayName": "Moses Dumbuya",
+    "profileUrl": "/@momo",
+    "activityUrl": "/users/momo",
+    "createdAt": "2024-09-01T09:43:13.604Z"
+  }
+}

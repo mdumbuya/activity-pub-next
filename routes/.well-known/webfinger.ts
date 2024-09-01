@@ -15,7 +15,7 @@ export const handler = async (req: Request, _ctx: HandlerContext) => {
 
     // Determine the absolute path to users.json
     const __dirname = dirname(fromFileUrl(import.meta.url));
-    const usersFilePath = join(__dirname, "../../data/user.json");
+    const usersFilePath = join(__dirname, "../../data/users.json");
 
     // Read the users.json file
     const usersText = await Deno.readTextFile(usersFilePath);
