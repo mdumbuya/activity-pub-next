@@ -47,7 +47,40 @@ export const handler: Handlers = {
 
 export default function RegisterPage() {
   return (
-    <div>
+    <section class="bg-gray-200">
+        <div class="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
+          <div class="mx-auto">
+              <h2 class="text-2xl font-bold mb-5 text-center">Create</h2>
+          </div>
+
+          <div class="w-full bg-white rounded-lg shadow md:mt-0 sm:max-w-md xl:p-0">
+            <div class="p-6 space-y-4 md:space-y-6 sm:p-8">
+              
+              <form class="space-y-4 md:space-y-6" method="POST">
+                <div>
+                    <label for="username" class="block mb-2 text-sm font-medium">Username</label>
+                    <input type="text" id="username" name="username" class="border border-gray-300 sm:text-sm rounded-lg focus:ring-blue-600 focus:border-blue-600 block w-full p-2.5 dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Type you usernem ..." required/>
+                </div>
+                <div>
+                    <label for="displayName" class="block mb-2 text-sm font-medium">Display Name:</label>
+                    <input type="text" name="displayName" id="displayName" placeholder="Name that is displayed" class="border border-gray-300 sm:text-sm rounded-lg focus:ring-blue-600 focus:border-blue-600 block w-full p-2.5 dark:focus:ring-blue-500 dark:focus:border-blue-500" required/>
+                </div>
+                
+                <button type="submit" class="w-full text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Register</button>
+                <p class="text-sm font-light text-gray-500 dark:text-gray-400">
+                  Don't have an account yet? <a href="/signup" class="font-medium text-blue-600 hover:underline dark:text-blue-500">Sign up</a>
+                </p>
+              </form>
+            </div>
+            
+          </div>
+        </div>
+    </section>
+    
+  );
+}
+/*
+*<div>
       <h1>Register</h1>
       <form method="POST">
         <label htmlFor="username">Username:</label>
@@ -59,5 +92,4 @@ export default function RegisterPage() {
         <button type="submit">Register</button>
       </form>
     </div>
-  );
-}
+ */
