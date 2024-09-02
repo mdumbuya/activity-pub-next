@@ -7,8 +7,9 @@
 
 # Fresh build directory
 _fresh/
+
 # npm dependencies
 node_modules/
-# user data 
-data/users
-data
+
+# User data 
+data/
