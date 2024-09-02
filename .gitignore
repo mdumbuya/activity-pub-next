@@ -10,5 +10,5 @@ _fresh/
 # npm dependencies
 node_modules/
 # user data 
-data/
-data/users.json/
+data/users
+data
